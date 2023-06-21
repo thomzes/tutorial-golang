@@ -1,15 +1,22 @@
 package main
 
-import "fmt";
+import "fmt"
 
 func main() {
-	var name = "Thomas";
-	var names = "Ardiansah";
+	var name = "Thomas"
+	var names = "Ardiansah"
 
-	var result bool;
-	benar = name == names;
+	var result bool
+	result = name == names
 
-	fmt.Println(benar);
+	fmt.Println(result)
 
+	var value1 = 100
+	var value2 = 200
+
+	fmt.Println(value1 > value2)
+	fmt.Println(value1 < value2)
+	fmt.Println(value1 == value2)
+	fmt.Println(value1 != value2)
 
 }
