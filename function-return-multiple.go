@@ -8,7 +8,7 @@ func getFullName() (string,string, string) {
 
 func main() {
 	// tambahkan "_" untuk mengabaikann parameter func
-	firstName, _, lastName := getFullName() //tidak perduli dengan middlenane
 	firstName, middleName, lastName := getFullName()
+	firstName, _, lastName := getFullName() //tidak perduli dengan middlenane
 	fmt.Println(firstName, middleName, lastName)
 }
