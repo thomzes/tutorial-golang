@@ -20,4 +20,8 @@ func main() {
 	fmt.Println(address2)
 	fmt.Println(address3)
 
+	var address4 *Address = new(Address)
+	address4.City = "Jakarta"
+	fmt.Println(address4)
+
 }
